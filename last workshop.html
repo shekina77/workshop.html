@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        padding: 0px;
+
+    }
+
+    body {
+        display: grid;
+        justify-content: center;
+        gap:10px;
+    }
+
+    .parent1 {
+        width: 600px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .block2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .span {
+        border: 1px solid blue;
+        padding: 10px;
+    }
+    span{
+        border: 1px solid blue;
+        padding: 5px;
+    }
+
+    .block3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .parent2 {
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    }
+
+    .parent3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+
+    }
+    .image{
+        display: grid;
+        grid-template-columns: 1fr 500px;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: 500px 1fr;
+    }
+</style>
+</head>
+
+<body>
+<div class="parent1">
+    <div class="one">
+        <img src="https://assets.codepen.io/210284/header.png" width="500px">
+    </div>
+    <div class="two">
+        <h1>Creating responsive email magic</h1>
+        <p>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus!</p>
+    </div>
+    <div class="block2">
+        <img src="https://assets.codepen.io/210284/two-column-01.png" width="300px" height="200px">
+
+
+        <div class="block2(1)">
+            <h2>Taciti nostra, per litora nostra</h2>
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas
+                sed ante pellentesque.</p>
+            <span class="span">claim your's now</span>
+        </div>
+    </div>
+    <div class="block3">
+       <div class="block3(1)">
+        <h2>Conubia nostra, per inceptos himenaeos</h2>
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas
+            sed ante pellentesque.</p>
+        <span>look in it</span></div>
+        
+            <img src="https://assets.codepen.io/210284/two-column-02.png" width="300px" height="200px">
+        
+    </div>
+    <div class="parent2">
+        <h1>Praesent laoreet malesuada cursus</h1>
+        <p style="font-size: 20px;">Posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora!</p>
+    </div>
+    <div class="parent3">
+        <div class="div">
+            <img src="https://assets.codepen.io/210284/three-column-01.png" width="120px">
+    
+            <p>Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
+</div>
+    <div class="div">
+        <img src="https://assets.codepen.io/210284/three-column-02.png" width="120px">
+        <p>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</p>
+    </div>
+    <div class="div">
+        <img src="https://assets.codepen.io/210284/three-column-03.png" width="120px">
+        <p>Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere.</p>
+    </div>
+    <div class="div">
+        <img src="https://assets.codepen.io/210284/three-column-04.png" width="120px">
+        <p>Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere.</p>
+    </div>
+    <div class="div">
+        <img src="https://assets.codepen.io/210284/three-column-05.png" width="120px">
+        <p>Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere.</p>
+    </div>
+    <div class="div">
+        <img src="https://assets.codepen.io/210284/three-column-06.png" width="120px">
+        <p>Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere.</p>
+    </div>
+</div>
+<div class="parent4">
+    <div class="image">
+        <img src="https://assets.codepen.io/210284/sidebar-01.png">
+    
+        <p>Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat. Read on</p>
+</div>
+    
+<div class="parent5">
+    <div class="images">
+        <p>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra. <a href="register here">register here</a></p>
+       
+        <img src="https://assets.codepen.io/210284/sidebar-02.png">
+    </div>
+</div>
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
